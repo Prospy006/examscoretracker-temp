@@ -1,0 +1,4 @@
+cargo:rustc-cfg=moon_waning
+cargo:warning=🌙 Compiling under phase: waning
+cargo:rerun-if-changed=build.rs
+cargo:rustc-env=MOON_PHASE=waning
